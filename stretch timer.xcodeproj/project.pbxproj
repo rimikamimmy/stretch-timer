@@ -14,6 +14,7 @@
 		840C15E02090523200715A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C15DE2090523200715A95 /* LaunchScreen.storyboard */; };
 		840C15EB2090523200715A95 /* stretch_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15EA2090523200715A95 /* stretch_timerTests.swift */; };
 		840C15F62090523200715A95 /* stretch_timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15F52090523200715A95 /* stretch_timerUITests.swift */; };
+		840C16062090A4A900715A95 /* ningen.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C16052090A4A900715A95 /* ningen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		840C15F12090523200715A95 /* stretch timerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stretch timerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840C15F52090523200715A95 /* stretch_timerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stretch_timerUITests.swift; sourceTree = "<group>"; };
 		840C15F72090523200715A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C16052090A4A900715A95 /* ningen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ningen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		840C15D42090523200715A95 /* stretch timer */ = {
 			isa = PBXGroup;
 			children = (
+				840C16052090A4A900715A95 /* ningen.png */,
 				840C15D52090523200715A95 /* AppDelegate.swift */,
 				840C15D72090523200715A95 /* ViewController.swift */,
 				840C15D92090523200715A95 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840C16062090A4A900715A95 /* ningen.png in Resources */,
 				840C15E02090523200715A95 /* LaunchScreen.storyboard in Resources */,
 				840C15DD2090523200715A95 /* Assets.xcassets in Resources */,
 				840C15DB2090523200715A95 /* Main.storyboard in Resources */,
