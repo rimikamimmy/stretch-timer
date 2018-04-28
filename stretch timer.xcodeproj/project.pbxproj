@@ -15,6 +15,8 @@
 		840C15EB2090523200715A95 /* stretch_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15EA2090523200715A95 /* stretch_timerTests.swift */; };
 		840C15F62090523200715A95 /* stretch_timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C15F52090523200715A95 /* stretch_timerUITests.swift */; };
 		840C16062090A4A900715A95 /* ningen.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C16052090A4A900715A95 /* ningen.png */; };
+		8425739920931A3900CCFB7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425739820931A3900CCFB7F /* ProfileViewController.swift */; };
+		842573D52093409000CCFB7F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842573D42093409000CCFB7F /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		840C15F52090523200715A95 /* stretch_timerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stretch_timerUITests.swift; sourceTree = "<group>"; };
 		840C15F72090523200715A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840C16052090A4A900715A95 /* ningen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ningen.png; sourceTree = "<group>"; };
+		8425739820931A3900CCFB7F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		842573D42093409000CCFB7F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				840C15D52090523200715A95 /* AppDelegate.swift */,
 				840C15D72090523200715A95 /* ViewController.swift */,
 				840C15D92090523200715A95 /* Main.storyboard */,
+				8425739820931A3900CCFB7F /* ProfileViewController.swift */,
+				842573D42093409000CCFB7F /* TimerViewController.swift */,
 				840C15DC2090523200715A95 /* Assets.xcassets */,
 				840C15DE2090523200715A95 /* LaunchScreen.storyboard */,
 				840C15E12090523200715A95 /* Info.plist */,
@@ -196,7 +202,7 @@
 				TargetAttributes = {
 					840C15D12090523200715A95 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					840C15E52090523200715A95 = {
 						CreatedOnToolsVersion = 9.2;
@@ -263,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842573D52093409000CCFB7F /* TimerViewController.swift in Sources */,
+				8425739920931A3900CCFB7F /* ProfileViewController.swift in Sources */,
 				840C15D82090523200715A95 /* ViewController.swift in Sources */,
 				840C15D62090523200715A95 /* AppDelegate.swift in Sources */,
 			);
@@ -430,11 +438,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = "stretch timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.littech.stretch-timer";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.stretchtimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1e814774-a466-4423-9308-a8094a728dfa";
+				PROVISIONING_PROFILE_SPECIFIER = "L10-RimikaInoguchi-Distribution";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -444,11 +456,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = "stretch timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.littech.stretch-timer";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.stretchtimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1e814774-a466-4423-9308-a8094a728dfa";
+				PROVISIONING_PROFILE_SPECIFIER = "L10-RimikaInoguchi-Distribution";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

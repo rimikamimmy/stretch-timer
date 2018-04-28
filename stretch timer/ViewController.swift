@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let number = Int(arc4random_uniform(4))
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
