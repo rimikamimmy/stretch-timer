@@ -18,17 +18,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let number = Int(arc4random_uniform(4))
-        
+
         
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    @IBAction func ProfilebuttonTapped(){
-        
-        self.performSegue(withIdentifier: "toProfileScene", sender: nil)
-    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

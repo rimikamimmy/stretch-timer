@@ -17,6 +17,7 @@
 		840C16062090A4A900715A95 /* ningen.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C16052090A4A900715A95 /* ningen.png */; };
 		8425739920931A3900CCFB7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425739820931A3900CCFB7F /* ProfileViewController.swift */; };
 		842573D52093409000CCFB7F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842573D42093409000CCFB7F /* TimerViewController.swift */; };
+		8425744B20944A9200CCFB7F /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425744A20944A9200CCFB7F /* GraphViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		840C16052090A4A900715A95 /* ningen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ningen.png; sourceTree = "<group>"; };
 		8425739820931A3900CCFB7F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		842573D42093409000CCFB7F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		8425744A20944A9200CCFB7F /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				840C15D92090523200715A95 /* Main.storyboard */,
 				8425739820931A3900CCFB7F /* ProfileViewController.swift */,
 				842573D42093409000CCFB7F /* TimerViewController.swift */,
+				8425744A20944A9200CCFB7F /* GraphViewController.swift */,
 				840C15DC2090523200715A95 /* Assets.xcassets */,
 				840C15DE2090523200715A95 /* LaunchScreen.storyboard */,
 				840C15E12090523200715A95 /* Info.plist */,
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				842573D52093409000CCFB7F /* TimerViewController.swift in Sources */,
+				8425744B20944A9200CCFB7F /* GraphViewController.swift in Sources */,
 				8425739920931A3900CCFB7F /* ProfileViewController.swift in Sources */,
 				840C15D82090523200715A95 /* ViewController.swift in Sources */,
 				840C15D62090523200715A95 /* AppDelegate.swift in Sources */,
@@ -442,6 +446,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = "stretch timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.stretchtimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,6 +465,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = "stretch timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.stretchtimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
